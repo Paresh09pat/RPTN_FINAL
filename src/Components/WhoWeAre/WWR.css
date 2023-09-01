@@ -104,6 +104,7 @@
   font-size: 15px;
 
 }
+
 .wowe_highlight {
   user-select: none;
   font-size: 30px;
@@ -713,22 +714,30 @@
   }
 
   .imgWhoWe-1-flex {
-    margin-left: -27%;
-    width: 150% !important;
-    }
+    margin-left: 0%;
+    width: 165% !important;
+  }
+  .custom-who_we_h5 {
+    width: 230% !important;
+  }
 
   .custom-img1WhoWe, .custom-img2WhoWe, .custom-img3WhoWe {
     width: 75% !important;
     margin-left: 12%;
   }
+  .custom-align-items-start1 {
+    display: block;
+    margin-left: 0% !important;
+    width: 16%;
+}
 
   .custom-who_we_row {
-    width: 100%;
+    width: 92%;
     display: flex;
     flex-wrap: wrap;
     justify-content: unset !important;
     align-items: flex-start;
-    margin-left: 0%;
+    margin-left: 23%;
   }
 
   .custom-targetting {
@@ -739,6 +748,10 @@
   .custom-paragraph {
     text-align: justify;
     line-height: 18px;
+    width: 230%  !important;
+  }
+  .who_we_new-div{
+    margin-left: 10%;
   }
 }
 
@@ -929,6 +942,7 @@
   .who_we_row {
     display: flex;
     width: 100%;
+    margin-left: 0%;
   }
 
   .who_we_column {
@@ -1126,12 +1140,92 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    margin-left: 0%;
+    margin-left: 22%;
   }
 
   .custom-paragraph {
     text-align: justify;
     line-height: 18px;
+  }
+
+  .custom-section-five {
+    background-color: rgb(250, 253, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    line-height: 0.9rem;
+  }
+  
+  .custom-betn {
+    padding-top: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .custom-last_para {
+    font-size: 20px;
+  }
+  
+  .custom-who_we_container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .custom-who_we_h5 {
+    width: 100% !important;
+    color: rgb(0, 179, 255);
+    font-size: 20Px;
+  }
+  
+  .custom-who_we_row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .custom-who_we_col {
+    flex: 1;
+    min-width: 280px;
+    max-width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  
+  /* Make images responsive */
+  
+  .custom-align-items-start1 {
+    display: block;
+    margin-left: 7% !important;
+    width: 16%;
+  
+  }
+  
+  .custom-img1WhoWe, .custom-img2WhoWe, .custom-img3WhoWe {
+    width: 70% !important;
+    margin-left: 18%;
+  }
+  
+  .custom-paragraph {
+    width: 130% !important;
+    text-align: justify;
+    line-height: 17px !important;
+  }
+  .custom-container{
+    margin-left: 0% !important;
+  }
+  
+  .custom-attri {
+    width: 100% !important;
+    text-align: justify;
+    line-height: 16px !important;
+  }
+  .imgWhoWe-1-flex{
+    width: 130% !important;
   }
 }
 
@@ -1248,7 +1342,10 @@
   }
 
   .who_we_t1_h1 {
-    font-size: 18px;
+    margin-left: 1%;
+    font-size: 18px !important;
+    text-align: center;
+    width: 100%;
   }
 
   .who_we_t1 .who_we_t1_p {
@@ -1300,12 +1397,16 @@
   }
 
   .wowe_p1 {
-    margin-top: 15% !important;
+    margin-top: 5% !important;
     font-size: 22px !important;
     color: black;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  .who_we_column_h4 {
+    margin-top: 10%;
+    font-size: 18px;
+}
 
   .wowe_p2 {
     width: 71% !important;
@@ -1330,6 +1431,7 @@
   .who_we_row {
     display: flex;
     width: 100%;
+    margin-left: 0%;
 
   }
 
@@ -1470,7 +1572,7 @@
 
   .custom-who_we_row {
     justify-content: center !important;
-    gap: 5%;
+    gap: 0%;
   }
 
   .custom-paragraph {
@@ -1480,7 +1582,7 @@
   }
 
   .custom-attri {
-    line-height: 18px;
+    line-height: 14px !important;
   }
 
   .paragraph {
@@ -1514,6 +1616,65 @@
     height: 52%;
     margin-top: 0%;
   }
+  .custom-who_we_container {
+    display: flex;
+    flex-wrap: nowrap !important;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .custom-who_we_h5 {
+    width: 100% !important;
+  }
+  .custom-attri{
+    width: 80% !important ;
+  }
+  
+  /* last section */
+  .custom-who_we_row {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: center!important;
+    align-items: flex-start !important;
+  }
+  .imgWhoWe-1-flex{
+    width: 90% !important;
+  }
+
+  .custom-img1WhoWe, .custom-img2WhoWe, .custom-img3WhoWe {
+    width: 60% !important;
+    margin-left: 1% !important;
+  }
+
+  .custom-who_we_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .custom-who_we_h5 {
+    width: 98% !important;
+    color: rgb(0, 179, 255);
+    font-size: 16Px !important;
+  }
+
+  .custom-align-items-start1 {
+    display: flex;
+    flex-wrap: wrap !important;
+
+    margin-left: 16% !important;
+    width: 100% !important;
+  }
+
+  .custom-col{
+    margin-left: -11% !important;
+  }
+  .custom-paragraph {
+    width: 100% !important;
+    text-align: justify;
+    line-height: 18px;
+  }
+  
+
 }
 
 /*----------------------- css media query for Mobile L max - 425px  -------------------------------------- */
@@ -1552,10 +1713,14 @@
   }
 
   .wowe_highlight1 {
-    font-size: 20px !important;
+    font-size: 30px !important;
     color: rgb(0, 170, 255);
   }
 
+  .who_we_head1 .who_we_head1_para {
+    margin-left: 12% !important;
+    width: 80% !important;
+  }
   .who_we_t1 {
     font-size: 20px !important;
     padding: 6% 0% 5% 6%;
@@ -1598,7 +1763,8 @@
 
   .who_we_row {
     display: block !important;
-    width: 100%;
+    width: 90%;
+    margin-left: 4%;
     padding-bottom: 8%;
   }
 
@@ -1621,6 +1787,7 @@
 
   .who_we_column_h4 {
     margin-top: 8%;
+    font-size: 25px !important;
   }
 
   .wowe_text3 {
@@ -1642,6 +1809,13 @@
 
   .who_we_h5 {
     font-size: 21px;
+  }
+
+  .who_we_column {
+    flex-basis: 30%;
+    box-sizing: border-box;
+    align-items: center;
+    width: 92%;
   }
 
   .who_we_h3 {
@@ -1732,6 +1906,92 @@
     min-width: 92% !important;
 
   }
+  .custom-last_h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .custom-who_we_row {
+    margin-left: 8%;
+  }
+
+  .col .who_we_h5_1 {
+    width: 114% !important;
+    font-size: 14px !important;
+    margin-top: 145% !important;
+    margin-left: 0%;
+
+  }
+
+  .custom-attri {
+    width: 100% !important;
+    text-align: justify;
+    line-height: 18px;
+  }
+
+  .custom-section-five {
+    line-height: 1.2rem !important;
+    height: auto !important;
+  }
+
+  .whoweparagraph {
+    font-size: 12px;
+  }
+
+  .paragraph {
+    margin-left: 0% !important;
+    width: 100px;
+    top: 10%;
+    font-size: 9px;
+    top: -15%;
+  }
+
+  .wowe_section-five {
+    height: 200vh;
+  }
+
+  /* last section */
+  .custom-who_we_row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+  }
+
+  .custom-who_we_col img {
+    width: 100% !important;
+  }
+
+  .custom-img1WhoWe, .custom-img2WhoWe, .custom-img3WhoWe {
+    width: 70% !important;
+    margin-left: 0% !important;
+  }
+
+  .custom-who_we_container {
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .custom-who_we_h5 {
+    width: 98% !important;
+    color: rgb(0, 179, 255);
+    font-size: 16Px;
+  }
+
+  .custom-align-items-start1 {
+    display: block;
+    margin-left: 8% !important;
+    width: 100% !important;
+  }
+
+  .custom-paragraph {
+    width: 100% !important;
+    text-align: justify;
+    line-height: 18px;
+  }
+
 
 
 }
@@ -1781,7 +2041,7 @@
   }
 
   .wowe_text1 {
-
+    font-size: 35px !important;
     margin-left: 8%;
   }
 
@@ -1840,11 +2100,31 @@
 
   .who_we_column_h4 {
     margin-top: 8%;
+    font-size: 25px !important;
+
+  }
+
+  .who_we_head1 .who_we_head1_para {
+    width: 90% !important;
+    margin-left: 6%;
+  }
+
+  .who_we_t1_h1 {
+    font-size: 25px !important;
+  }
+
+  .wowe_p2 {
+    width: 94%;
+    margin-left: 2%;
+  }
+
+  .who_we_column {
+    width: 92% !important;
   }
 
   .wowe_text3 {
     font-size: 14px;
-    width: 86%;
+    width: 83%;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 9%;
@@ -1939,6 +2219,92 @@
 
   }
 
+  .custom-last_h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .custom-who_we_row {
+    margin-left: 8%;
+  }
+
+  .col .who_we_h5_1 {
+    width: 114% !important;
+    font-size: 14px !important;
+    margin-top: 145% !important;
+    margin-left: 0%;
+
+  }
+
+  .custom-attri {
+    width: 100% !important;
+    text-align: justify;
+    line-height: 18px;
+  }
+
+  .custom-section-five {
+    line-height: 1.2rem !important;
+    height: auto !important;
+  }
+
+  .whoweparagraph {
+    font-size: 12px;
+  }
+
+  .paragraph {
+    margin-left: 0% !important;
+    width: 100px;
+    top: 10%;
+    font-size: 9px;
+    top: -15%;
+  }
+
+  .wowe_section-five {
+    height: 200vh;
+  }
+
+  /* last section */
+  .custom-who_we_row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+  }
+
+  .custom-who_we_col img {
+    width: 100% !important;
+  }
+
+  .custom-img1WhoWe, .custom-img2WhoWe, .custom-img3WhoWe {
+    width: 70% !important;
+    margin-left: 0% !important;
+  }
+
+  .custom-who_we_container {
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .custom-who_we_h5 {
+    width: 98% !important;
+    color: rgb(0, 179, 255);
+    font-size: 16Px;
+  }
+
+  .custom-align-items-start1 {
+    display: block;
+    margin-left: 8% !important;
+    width: 100% !important;
+  }
+
+  .custom-paragraph {
+    width: 100% !important;
+    text-align: justify;
+    line-height: 18px;
+  }
+
 
 }
 
@@ -1949,6 +2315,8 @@
 
   .wowe_section-one {
     height: 100vh;
+    background-image: none;
+
   }
 
   #section1 {
@@ -1989,8 +2357,13 @@
   }
 
   .wowe_text1 {
-
+    font-size: 35px;
     margin-left: 8%;
+  }
+
+  .who_we_column_h4 {
+    margin-top: 10%;
+    font-size: 23px;
   }
 
   .wowe_text2 {
@@ -2026,6 +2399,7 @@
   .who_we_row {
     display: block !important;
     width: 100%;
+    margin-left: 1%;
   }
 
   .wowe_p2 {
@@ -2102,7 +2476,7 @@
   }
 
   .custom-who_we_row {
-    margin-left: 8%;
+    margin-left: 5%;
   }
 
   .col .who_we_h5_1 {
@@ -2113,8 +2487,15 @@
 
   }
 
+  .custom-attri {
+    width: 100% !important;
+    text-align: justify;
+    line-height: 18px;
+  }
+
   .custom-section-five {
     line-height: 1.2rem !important;
+    height: auto !important;
   }
 
   .whoweparagraph {
@@ -2133,6 +2514,49 @@
     height: 200vh;
   }
 
+  /* last section */
+  .custom-who_we_row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+  }
+
+  .custom-who_we_col img {
+    width: 100% !important;
+  }
+
+  .custom-img1WhoWe, .custom-img2WhoWe, .custom-img3WhoWe {
+    width: 70% !important;
+    margin-left: 0% !important;
+  }
+
+  .custom-who_we_container {
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .custom-who_we_h5 {
+    width: 98% !important;
+    color: rgb(0, 179, 255);
+    font-size: 16Px;
+  }
+
+  .custom-align-items-start1 {
+    display: block;
+    margin-left: 5% !important;
+    width: 100% !important;
+  }
+
+  .custom-paragraph {
+    width: 100% !important;
+    text-align: justify;
+    line-height: 18px;
+  }
+
+
 
 }
 
@@ -2141,6 +2565,7 @@
   top: -38px;
   text-align: justify;
 }
+
 .who_we_t1_h1 {
   font-size: 30px;
 }
@@ -2331,9 +2756,11 @@
   margin-bottom: 19px;
   align-items: center;
 }
-.custom-last_h4{
+
+.custom-last_h4 {
   font-size: 25px;
 }
+
 .who_we_col {
   flex-basis: 10%;
   padding: 0px;
@@ -2410,14 +2837,15 @@
 .custom-who_we_container {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: flex-start;
 }
 
 .custom-who_we_h5 {
   width: 170%;
   color: rgb(0, 179, 255);
-  font-size: 20Px;}
+  font-size: 20Px;
+}
 
 .custom-who_we_row {
   display: flex;
@@ -2438,22 +2866,26 @@
 .custom-who_we_col img {
   width: 170%;
 }
-.custom-align-items-start1{
+
+.custom-align-items-start1 {
   display: block;
   margin-left: 12%;
   width: 16%;
 
 }
-.custom-img1WhoWe,.custom-img2WhoWe,.custom-img3WhoWe{
+
+.custom-img1WhoWe, .custom-img2WhoWe, .custom-img3WhoWe {
   width: 70% !important;
   margin-left: 18%;
 }
-.custom-paragraph{
+
+.custom-paragraph {
   width: 170%;
   text-align: justify;
   line-height: 18px;
 }
-.custom-attri{
+
+.custom-attri {
   width: 115%;
   text-align: justify;
   line-height: 19px;

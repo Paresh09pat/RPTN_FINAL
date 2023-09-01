@@ -500,3 +500,23 @@
     -moz-transition: box-shadow 0.2s ease-in;
     transition: box-shadow 0.2s ease-in;
   }
+
+  @media screen and (max-device-width: 480px){
+    .row1{
+      height: auto !important;
+    }
+    .input__box_main {
+      height: auto;
+    }
+    .content {
+      margin-left: 6%;
+  }
+  .question {
+    font-size: 17px;
+  }
+ .answers{
+  font-size: 17px !important;
+  margin-left: 5%;
+ }
+
+  }

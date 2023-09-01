@@ -54,7 +54,10 @@
 }
 
 .dropdown-menu {
-  background-color: #111213;
+  background-color: #1b1b1b;
+  
+  
+  
 }
 
 .dropdown-toggle:hover .dropdown-menu {
@@ -63,7 +66,7 @@
 }
 
 .dropdown-menu > a {
-  background-color: #111213 !important;
+  background-color: #1b1b1b;
   color: white !important;
   text-align: center;
   font-family: "Moonglade", sans-serif;
@@ -129,7 +132,24 @@
 
 .navbar-links li:last-child {
   margin-right: 0;
+}/* Your existing CSS styles here */
+
+
+
+
+
+/* Show the dropdown menu when hovering over the list item */
+.nav-links_li:hover .dropdown-menu {
+  display: block !important;
+  margin-top: 0;
 }
+
+
+
+
+
+/* Rest of your CSS styles */
+
 
 .search-container {
   display: flex;
@@ -186,6 +206,7 @@
     top: 70px;
     right: -100vw;
     width: 100vw;
+    height: 100vh;
     padding: 10px;
     gap: 25px;
     background-color: black;
@@ -217,9 +238,10 @@
 
   .navbar-links {
     top: 48px;
+    height: 100vh;
   }
-
+/* 
   .dropdown-menu {
     background-color: #111213;
-  }
+  } */
 }

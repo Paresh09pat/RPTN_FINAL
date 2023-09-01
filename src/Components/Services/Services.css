@@ -367,15 +367,26 @@ a:link {
   .main--div{
     margin-right: 3% !important;
   }
+  .secound--page {
+    height: auto;
+  }
   .header--secound--page{
-    margin-top: 50px;
+    margin-top: 5px;
   }
   .left--align--header {
     font-size: 17px;
 
   }
   .justify--p{
-    font-size: 18px;
+    font-size: 14px;
+  }
+  .secound--page--p {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .secound--page--p--content {
+    width: 100%;
+    margin-left: 0%;
   }
 
   .third--page {

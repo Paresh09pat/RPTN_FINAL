@@ -242,7 +242,8 @@
 }
 .cloud-col2-head2 {
   /* border: 2px solid green; */
-  width: 100%;
+  width: 85%;
+  margin-left: 15%;
 }
 
 /* .cloud-col2-head2 > h2 {
@@ -274,7 +275,7 @@
   opacity: 0.5;
 }
 .cloud-f-letter {
-  font-size: 25px;
+  font-size: 35px;
   letter-spacing: 1;
 }
 .cloud-span {
@@ -297,7 +298,6 @@
   padding: 10px 10px 10px 0px;
   text-align: justify;
   background-color: transparent;
-  text-align: left;
 }
 
 /* key features */

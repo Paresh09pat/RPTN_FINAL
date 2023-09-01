@@ -1205,6 +1205,9 @@ body, html {
     animation-delay: -0.4s;
   }
 
+  .Crr_unemp {
+    font-size: 16px !important;
+  }
 }
 
 /* tablet view */
@@ -1483,7 +1486,9 @@ margin-left: -33%;
   }
 
   .Crr_unemp {
-    text-align: center;
+    text-align: right;
+    font-size: 15px !important;
+    height: 125px;
   }
 
   .Career_one_side_border_sixth {
@@ -1783,7 +1788,7 @@ margin-left: -33%;
 
   .Crr_unemp {
     width: fit-content;
-    font-size: 20px;
+    font-size: 18px !important;
   }
 
   .Career_one_side_border_sixth {
@@ -1803,9 +1808,9 @@ margin-left: -33%;
   .FSNC_sixth_sec_three_card_carrer {
     gap: 20px;
     margin-inline: auto;
-    width: 78%;
+    width: 88%;
     height: 69%;
-    margin-left: 16% !important;
+    margin-left: 10% !important;
     display: flex;
     flex-wrap: wrap;
   }
@@ -1855,7 +1860,7 @@ margin-left: -33%;
   
   .projection-bar {
     transform: rotate(90deg);
-    margin-left: -78%;
+    margin-left: -87%;
     margin-top: 110%;
     width: 196% !important;
   }
@@ -1880,8 +1885,9 @@ margin-left: -33%;
 
   .Career_c41 .Career_c41_h1 {
     font-size: 20px !important;
-    margin-left: 9%;
-    width: 101%;
+    margin-left: -7%;
+    width: 160%;
+    text-align: left;
   }
 
   .Career_c41 .c4 {
@@ -2116,7 +2122,7 @@ margin-left: -33%;
     margin-bottom: 5%;
   }
   .Crr_unemp {
-    font-size: 19px;
+    font-size: 16px !important;
 }
 
 
@@ -2375,12 +2381,14 @@ margin-left: -33%;
   .head1p {
     /* margin-top: 30px; */
     align-items: center;
+    margin-left: 6% !important
+    ;
   }
 
   .head1p .head1p_head {
     /* margin-top: -20%; */
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-family: Minimo;
     width: 90%;
     margin-left: 0%;
@@ -2388,15 +2396,15 @@ margin-left: -33%;
   }
 
   .head1p .head1p_para {
-    width: 80%;
+    width: 90%;
      margin-top: 12%; 
-    font-size: 13px;
-    text-align: left;
+    font-size: 16px;
+    text-align: center !important;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    margin-left: 5%;
+    margin-left: 0%;
   }
 
   /* down arrow */
@@ -2568,9 +2576,7 @@ margin-left: -33%;
   /* .FSNC_sixth_sec_three_card_carrer{
     width: 80%;
   } */
-  .FSNC_sixth_sec_three_card_carrer{
-    width: 90%;
-  }
+  
   .FSNC_sixth_sec_three_card_carrer_sub {
     width: 84% !important;
   }
@@ -2665,18 +2671,18 @@ margin-left: -33%;
 
   .FSNC_sixth_sec_three_card_carrer {
     /* border: 1px solid red; */
-    /* width: 100%; */
+    width: 100%;
     margin-left: 0%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 5%;
+    margin-left: 0%;
   }
 
   .Career_one_side_border_sixth {
     font-size: 15px !important;
     padding-top: 85%;
-    padding-bottom: 20%;
+    padding-bottom: 5%;
     
   }
 
@@ -2702,7 +2708,7 @@ margin-left: -33%;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 20px;
-    font-size: 14px;
+    font-size: 12px !important;
   }
 
   .FSNC_sixth_sec_main_head_carrer {
@@ -2771,7 +2777,7 @@ margin-left: -33%;
 
   .info {
     /* margin-top: 20%; */
-    margin-top: 30%;
+    margin-top: 20%;
     margin-left: 0%;
   }
 
@@ -2790,11 +2796,10 @@ margin-left: -33%;
     -webkit-border-radius: 0px 200px 0px 200px;
     border: 0px solid #000000;
     background-color: rgb(46, 174, 248);
-    width:55%;
-    height: 1%;
+    width:65%;
     /* padding-left: 51px; */
     position: relative;
-    margin-left: 35%;
+    margin-left: 20%;
     /* margin-top: 5%; */
     /* margin-right: 20%; */
     margin-bottom: 20%;
@@ -2807,6 +2812,7 @@ margin-left: -33%;
   .emailr {
     color: rgb(46, 174, 248);
     font-size: 18px;
+    text-align: center;
   }
 
   /* Arrow  */
@@ -2816,7 +2822,7 @@ margin-left: -33%;
   .vis_arrow_right_carrer {
     position: absolute;
     transform: rotate(270deg);
-    right: 20%;
+    right: 30%;
     bottom:70%;
   }
 
@@ -3128,10 +3134,10 @@ margin-left: -33%;
 
   .FSNC_sixth_sec_three_card_carrer {
     /* border: 1px solid red; */
-    width: 80%;
+    width: 100% !important;
     height: 80%;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 0 !important ;
     display: flex;
     flex-wrap: wrap;
   }
@@ -3215,7 +3221,7 @@ margin-left: -33%;
     padding-left: 5%;
     text-justify: center;
     font-family: Minimo;
-    font-size: 18px;
+    font-size: 16px;
     /* text-align: center; */
   }
 

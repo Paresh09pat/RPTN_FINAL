@@ -274,6 +274,7 @@ text-align: center;
 .fouth--header {
   text-align: center;
   color: #3aa6ca;
+  font-size: 45px;
 }
 .fourth--page--p {
   text-align: justify;
@@ -520,8 +521,8 @@ a:link {
     font-size: 16px;
   }
   .third--page--p{
-    width: 90%;
-    margin-left: 6%;
+    width: 100%;
+    margin-left: 0%;
   }
   .fourt--page--gridTwo,
   .third--page--img--col {
@@ -552,7 +553,7 @@ a:link {
     margin-top: 35px;
   }
   .secound--header{
-    font-size: 27px;
+    font-size: 22px;
   }
   .secound--span--big {
     font-size: 35px;
@@ -639,8 +640,8 @@ font-size: 15px;
   }
 
   .fourth--page--p{
-    width: 88%;
-    margin-left: 6%;
+    width: 98%;
+    margin-left: -1%;
   }
   .fouth--span--big {
     font-size: 28px;

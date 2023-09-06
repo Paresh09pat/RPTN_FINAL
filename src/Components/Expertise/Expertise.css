@@ -497,7 +497,7 @@
     margin-top: 15px;
   }
   .inp_field {
-    width: 90%;
+    width: 90% !important;
     height: 30px;
     margin-left: 2%;
     border-bottom: 2px solid black;
@@ -756,9 +756,9 @@
   }
 
   .inp_field {
-    width: 80%;
+    width: 80% !important;
     height: 30px;
-    margin-left: 7%;
+    margin-left: 0%;
     border-bottom: 2px solid black;
   }
 

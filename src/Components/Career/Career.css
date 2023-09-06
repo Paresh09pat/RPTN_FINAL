@@ -934,6 +934,7 @@ body, html {
     position: absolute;
     margin-top: 13%;
     left: 50%;
+    top: 50% !important;
     transform: translate(-50%, -50%);
 
     transform: rotate(360deg);
@@ -1232,7 +1233,7 @@ body, html {
 
   .Career_part1 {
     /* display: flex; */
-    height: auto;
+    height: 100vh;
 
     margin-left: 0%;
   }
@@ -1268,7 +1269,7 @@ body, html {
   /* down arrow */
   .Career_arrow-right{
     position: absolute;
-    top: 85% !important;
+    top: 50% !important;
   }
    .Career_arrow-right span{
     width: 1.0rem;
@@ -1576,8 +1577,8 @@ margin-left: -33%;
 
   .info {
     margin: 15%;
-    margin-left: 55%;
-    width: 30%;
+    margin-left: 60%;
+    width: 33%;
   }
 
   .info .call {
@@ -1684,7 +1685,8 @@ margin-left: -33%;
     text-align: center;
     margin-top: 10%;
     font-size: 21px;
-    width: 90%;
+    width: 100%;
+    margin-left: -6% !important;
   }
 
   .head1p .head1p_para {
@@ -2050,7 +2052,8 @@ margin-left: -33%;
     text-align: center;
     font-size: 18px !important;
     margin-top: 15%;
-    width: 85%;
+    width: 100%;
+    margin-left: -7% !important;
   }
 
   .head1p .head1p_para {
@@ -2230,7 +2233,7 @@ margin-left: -33%;
 
   .column4 {
     margin-top: 0px;
-    margin-left: 8%;
+    margin-left: 0%;
     width: 85%;
   }
   .Career_c41 .Career_c41_para {
@@ -2247,13 +2250,14 @@ margin-left: -33%;
   }
 
   .Career_c41 .Career_c41_h1 {
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     font-weight: 600;
   }
 
   .r1 {
-    width: 210px;
+    width: 255px;
+    margin-left: 0%;
   }
 
   .dot:nth-child(2) {
@@ -2327,6 +2331,7 @@ margin-left: -33%;
   .emailr {
     color: rgb(46, 174, 248);
     font-size: 18px;
+    text-align: center;
   }
 
   /* Arrow  */
